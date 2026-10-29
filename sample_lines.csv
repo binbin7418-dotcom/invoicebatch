@@ -1,0 +1,10 @@
+invoice_no,date,client,description,qty,unit_price,tax_rate,stated_total
+1001,2026-03-01,Acme Ltd,Design work,2,150.00,10,330.00
+1001,2026-03-01,Acme Ltd,Hosting setup,1,50.00,10,
+1002,5 Mar 2026,Beta Studio,Consulting day,1,400.00,0,400.00
+1003,2026-03-02,Gamma LLC,Support hours,3,80.00,20,288.00
+1003,2026-03-02,Delta Inc,Extra work,1,100.00,20,120.00
+1004,2026-03-04,,USB cables,2,25.00,10,
+1005,2026-03-05,Echo GmbH,Returned item,-1,60.00,0,120.00
+1005,2026-03-05,Echo GmbH,Replacement units,3,60.00,0,
+1007,2026-03-07,Foxtrot Oy,Domain renewal,1,99.00,0,99.00
