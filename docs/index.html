@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>InvoiceBatch — Batch Invoice PDFs from a Spreadsheet, Totals Reconciled | Local & Private</title>
+<meta name="description" content="InvoiceBatch turns a spreadsheet of invoice lines into one PDF per invoice, recomputes every total with exact decimal arithmetic, flags duplicate numbers and missing clients, then re-checks every total a second time. 100% local.">
+<style>
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;color:#1c2733;line-height:1.6;background:#fbfcfe}
+  .wrap{max-width:820px;margin:0 auto;padding:32px 20px 64px}
+  h1{font-size:2rem;line-height:1.25;margin:.2em 0}
+  h2{margin-top:2em;font-size:1.25rem}
+  .sub{font-size:1.1rem;color:#43536a}
+  .cta{display:inline-block;background:#0b6e4f;color:#fff;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600;margin:16px 0}
+  .card{background:#fff;border:1px solid #e3e9f0;border-radius:10px;padding:18px 20px;margin:14px 0}
+  .num{font-weight:700;color:#0b6e4f}
+  footer{color:#7a8798;font-size:.85rem;margin-top:48px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p><strong>InvoiceBatch</strong></p>
+  <h1>Two hundred invoice lines.<br>Zero afternoons lost. Zero wrong totals.</h1>
+  <p class="sub">InvoiceBatch takes one spreadsheet of invoice lines, generates one print-ready PDF per invoice, and reconciles every cent — then <em>recomputes every total a second time</em> and compares, before you send a single invoice. Everything runs on your own computer.</p>
+  <a class="cta" href="https://binbinster.gumroad.com/l/invoicebatch-batch-invoice-pdf-generator">Get InvoiceBatch — $29 one-time</a>
+
+  <h2>What it corrects on its own</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Stated totals that disagree with their own lines</strong> — the recomputed value is used, and the correction is logged old → new with the reason</li>
+      <li><strong>Dates</strong> written as "5 Mar 2026" or "05/03/2026" — normalized to ISO format</li>
+    </ul>
+  </div>
+
+  <h2>What it reports, but never silently changes</h2>
+  <div class="card">
+    <p>The same invoice number used for two different clients, invoices with no client name, negative-quantity lines, and gaps in your invoice number sequence. You get the invoice number and a plain-English explanation — inventing a client or renumbering your books is your decision, not the software's.</p>
+  </div>
+
+  <h2>Verified, not vibes</h2>
+  <div class="card">
+    <p>On a seeded 9-line test sheet (6 invoices, 5 planted defects), InvoiceBatch applied <span class="num">3</span> logged corrections — including a stated total of 330.00 that recomputed to <span class="num">385.00</span> — flagged <span class="num">4</span> items for a human decision (3 blocking), and the independent re-check matched all 6 invoice totals with <span class="num">0 mismatches</span>. Batch grand total: 1,467.00, to the cent.</p>
+  </div>
+
+  <h2>How it works</h2>
+  <div class="card">
+    <ol>
+      <li>Open InvoiceBatch, choose your <code>.csv</code> / <code>.xlsx</code> of invoice lines (one row per line item)</li>
+      <li>Click <em>Generate Invoices &amp; Reconcile</em></li>
+      <li>Get back one PDF per invoice, a combined PDF, and the reconciliation report</li>
+    </ol>
+    <p>Windows 10/11. No account, no subscription, no upload. Your original file is never modified.</p>
+  </div>
+
+  <a class="cta" href="https://binbinster.gumroad.com/l/invoicebatch-batch-invoice-pdf-generator">Get InvoiceBatch — $29 one-time</a>
+
+  <footer>
+    <p>InvoiceBatch recomputes arithmetic and checks numbering. It does not judge whether your prices, tax rates or client details are the right ones, and it does not send, collect or chase payments.</p>
+  </footer>
+</div>
+</body>
+</html>
